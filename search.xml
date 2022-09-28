@@ -4,7 +4,20 @@
   
     
     <entry>
-      <title>Angulary</title>
+      <title>前端常见面试题</title>
+      <link href="/2022/09/28/Interview/"/>
+      <url>/2022/09/28/Interview/</url>
+      
+        <content type="html"><![CDATA[<h3 id="防抖与节流"><a href="#防抖与节流" class="headerlink" title="防抖与节流"></a>防抖与节流</h3><p>防抖:</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure><p>节流:</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure><h3 id="执行代码-console输出的信息是"><a href="#执行代码-console输出的信息是" class="headerlink" title="执行代码,console输出的信息是?"></a>执行代码,console输出的信息是?</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">(<span class="keyword">function</span>(<span class="params"></span>) &#123;</span><br><span class="line"><span class="keyword">var</span> a = (b=<span class="number">5</span>)</span><br><span class="line">&#125;)();</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(b);</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(a);</span><br></pre></td></tr></table></figure><p>结果:  </p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">b =  ?</span><br><span class="line">a =  ?</span><br></pre></td></tr></table></figure><h3 id="浏览器渲染页面做了什么"><a href="#浏览器渲染页面做了什么" class="headerlink" title="浏览器渲染页面做了什么?"></a>浏览器渲染页面做了什么?</h3><h3 id="从输入url到加载完页面发生了什么"><a href="#从输入url到加载完页面发生了什么" class="headerlink" title="从输入url到加载完页面发生了什么?"></a>从输入url到加载完页面发生了什么?</h3><h3 id="闭包是什么"><a href="#闭包是什么" class="headerlink" title="闭包是什么?"></a>闭包是什么?</h3><h3 id="原型-原型链"><a href="#原型-原型链" class="headerlink" title="原型,原型链?"></a>原型,原型链?</h3><h3 id="回流-重绘"><a href="#回流-重绘" class="headerlink" title="回流,重绘?"></a>回流,重绘?</h3><h3 id="作用域-作用域链"><a href="#作用域-作用域链" class="headerlink" title="作用域,作用域链?"></a>作用域,作用域链?</h3><h3 id="箭头函数"><a href="#箭头函数" class="headerlink" title="箭头函数?"></a>箭头函数?</h3><h3 id="JS判断数组的方法"><a href="#JS判断数组的方法" class="headerlink" title="JS判断数组的方法?"></a>JS判断数组的方法?</h3><h3 id="try-x2F-catch-x2F-finally"><a href="#try-x2F-catch-x2F-finally" class="headerlink" title="try&#x2F;catch&#x2F;finally?"></a>try&#x2F;catch&#x2F;finally?</h3><h3 id="async-amp-amp-await"><a href="#async-amp-amp-await" class="headerlink" title="async  &amp;&amp;  await?"></a>async  &amp;&amp;  await?</h3><h3 id="js继承的方式"><a href="#js继承的方式" class="headerlink" title="js继承的方式?"></a>js继承的方式?</h3><h3 id="typeof-null"><a href="#typeof-null" class="headerlink" title="typeof null?"></a>typeof null?</h3><h3 id="this指向问题"><a href="#this指向问题" class="headerlink" title="this指向问题?"></a>this指向问题?</h3><h3 id="深拷贝-amp-amp-浅拷贝"><a href="#深拷贝-amp-amp-浅拷贝" class="headerlink" title="深拷贝 &amp;&amp; 浅拷贝?"></a>深拷贝 &amp;&amp; 浅拷贝?</h3><h3 id="垃圾回收机制"><a href="#垃圾回收机制" class="headerlink" title="垃圾回收机制?"></a>垃圾回收机制?</h3>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Angular</title>
       <link href="/2022/09/28/angular/"/>
       <url>/2022/09/28/angular/</url>
       
@@ -69,11 +82,11 @@
     
     
     <entry>
-      <title>Es6</title>
-      <link href="/2022/09/27/Es6/"/>
-      <url>/2022/09/27/Es6/</url>
+      <title>JavaScript</title>
+      <link href="/2022/09/27/JavaScript/"/>
+      <url>/2022/09/27/JavaScript/</url>
       
-        <content type="html"><![CDATA[<h3 id="let、const-之间的区别"><a href="#let、const-之间的区别" class="headerlink" title="let、const 之间的区别"></a>let、const 之间的区别</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">1.</span>使用 <span class="keyword">let</span> 语句声明一个变量，该变量的范围限于声明它的块中。 可以在声明变量时为变量赋值，也可以稍后在脚本中给变量赋值。  </span><br><span class="line">j)使用 <span class="keyword">let</span> 声明的变量，在声明前无法使用，否则将会导致错误。</span><br><span class="line">k)如果未在 <span class="keyword">let</span> 语句中初始化您的变量，则将自动为其分配 <span class="title class_">JavaScript</span> 值 <span class="literal">undefined</span></span><br><span class="line">l)重复声明一个变量时。<span class="keyword">var</span>会覆盖上一个变量的赋值，而<span class="keyword">let</span>则会报错你已经定义过了</span><br><span class="line">m)<span class="title class_">Var</span>的作用域是最近的函数作用域；<span class="keyword">let</span>的作用域是最近的块作用域，会比函数作用域小</span><br><span class="line">n)举例：一个<span class="keyword">for</span>循环放在了函数中，<span class="keyword">let</span>只在这个<span class="keyword">for</span>里面有效，而<span class="keyword">var</span>是在整个函数里面有效</span><br></pre></td></tr></table></figure><h3 id="Promise"><a href="#Promise" class="headerlink" title="Promise"></a>Promise</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title class_">Promise</span> 是异步编程的一种解决方案，将异步操作以同步操作的流程表达出来，避免了层层嵌套的回调函数，要是为了解决异步处理回调地狱(也就是循环嵌套的问题)而产生的<span class="title class_">Promise</span> 构造函数包含一个参数和一个带有 resolve（解析）和 reject（拒绝）两个参数的回调。在回调中执行一些操作（例如异步），如果一切都正常，则调用 resolve，否则调用reject。 </span><br></pre></td></tr></table></figure>]]></content>
+        <content type="html"><![CDATA[<h3 id="JavaScript介绍"><a href="#JavaScript介绍" class="headerlink" title="JavaScript介绍?"></a>JavaScript介绍?</h3>]]></content>
       
       
       
